@@ -1,0 +1,5 @@
+# daily briefs: live job ids, collaborator names, private status
+pulse/
+# seed script contains the full private status text
+tools/seed_projects_reminders.applescript
+.DS_Store

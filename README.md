@@ -9,3 +9,6 @@ A lightweight daily status board for a postdoc juggling several research project
 
 ## What is in this repo
 Only the generic parts: project map (`CLAUDE.md`), a sanitised copy of the scheduled-task prompt (`tasks/`), and a helper to rewrite one reminder (`tools/update_reminder.sh`). Daily briefs (`pulse/`) and the seed script with full status text stay local.
+
+## Changelog
+- 2026-10-12: finish dates are now re-estimated on every pulse run; repo made public-safe (briefs and seed script stay local).

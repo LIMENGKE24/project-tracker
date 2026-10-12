@@ -1,6 +1,6 @@
 # Project-Tracker
 
-Daily status board for all concurrent research projects.
+A lightweight daily status board for a postdoc juggling several research projects at once. Apple Reminders is the board (desktop widget, phone sync, hand edits), and a manual-run Claude Code routine refreshes it from local folders, Claude/Codex session transcripts and HPC job queues, re-estimating each project's finish date every run.
 
 - **Board**: Apple Reminders list "Projects" (shown on the desktop via the Reminders widget → Edit Widget → list "Projects").
 - **Routine**: scheduled task `project-pulse` (manual run from the Scheduled sidebar). It refreshes every reminder's note from local folders, Claude/Codex transcripts and cluster queues, and writes `pulse/pulse_<date>.md`.
